@@ -9,7 +9,7 @@ northeast_states = [
 
 # Generate RSS feed URLs for each state
 rss_feeds = {
-    state.replace("-", " ").title(): f"https://indianexpress.com/section/north-east-india/{state}/feed/"
+    f"https://indianexpress.com/section/north-east-india/{state}/feed/"
     for state in northeast_states
 }
 
